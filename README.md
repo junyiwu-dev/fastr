@@ -101,8 +101,8 @@ value. When the task ends, that future value is zero.
 
 ## Code source and license
 
-This code is based on [Spectral-RL](https://github.com/spectral-rl/spectral-rl).
-We thank the original authors for sharing their code under the MIT License. The code uses MIT License.
+This code is based on [Spectral-RL](https://github.com/spectral-rl/spectral-rl) with modifications.
+We thank the original authors for sharing their code under the MIT License. The code uses the same MIT License.
 
 ## Files
 
