@@ -3,20 +3,6 @@
 FaStR is a reinforcement learning method that learns separate features for
 states and actions. This repository contains its code and training settings.
 
-## Code source and license
-
-This code is based on [Spectral-RL](https://github.com/spectral-rl/spectral-rl).
-We thank the original authors for sharing their code under the MIT License.
-
-We adapted parts of its neural network code, replay buffer, target network
-updates, training loop, and DeepMind Control Suite wrapper. We added the
-FaStR state and action encoders, critics, and optional exploration bonuses.
-We also kept only FaStR and moved all training runs to one entry point.
-
-The original copyright notice, `Copyright (c) 2022 typoverflow`, is kept in
-[LICENSE](LICENSE). Changes in this repository are listed under
-`Copyright (c) 2026 FaStR contributors`. The code uses the same MIT License.
-See [NOTICE](NOTICE) for source and change details.
 
 ## Install
 
@@ -112,6 +98,11 @@ Set `debug=true` to turn off file logging. Training starts after the replay
 buffer holds at least `batch_size` samples and `warmup_frames` have passed.
 When an episode ends at a time limit, training still uses the next state's
 value. When the task ends, that future value is zero.
+
+## Code source and license
+
+This code is based on [Spectral-RL](https://github.com/spectral-rl/spectral-rl).
+We thank the original authors for sharing their code under the MIT License. The code uses the same MIT License. See [NOTICE](NOTICE) for source and change details.
 
 ## Files
 
