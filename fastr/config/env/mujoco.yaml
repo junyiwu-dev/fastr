@@ -1,0 +1,6 @@
+# @package _global_
+backend: gym
+task: HalfCheetah-v5
+frame_skip: 1
+warmup_frames: 5000
+random_frames: 5000

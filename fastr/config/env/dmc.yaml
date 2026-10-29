@@ -1,0 +1,4 @@
+# @package _global_
+backend: dmc
+task: hopper-hop
+frame_skip: 2

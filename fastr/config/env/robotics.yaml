@@ -1,0 +1,26 @@
+# @package _global_
+backend: gym
+task: AdroitHandDoor-v1
+frame_skip: 1
+batch_size: 256
+warmup_frames: 5000
+random_frames: 5000
+eval_episodes: 20
+algo:
+  actor_update_freq: 2
+  target_update_freq: 2
+  actor_hidden_dims: [256, 256]
+  noise_clip: 0.5
+  exploration_noise: 0.1
+  phi_s_hidden_dims: [256, 256]
+  phi_a_hidden_dims: [256, 256]
+  mu_hidden_dims: [256, 256]
+  reward_hidden_dims: [256]
+  rff_dim: 256
+  num_noises: 20
+  feature_lr: 0.0003
+  reward_coef: 0.01
+  back_critic_grad: true
+  critic_type: bilinear
+  critic_rff_dim: 256
+  critic_hidden_dims: [256]

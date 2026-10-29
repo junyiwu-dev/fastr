@@ -1,0 +1,21 @@
+FaStR
+
+This repository is based on Spectral-RL:
+https://github.com/spectral-rl/spectral-rl
+
+Original code:
+Copyright (c) 2022 typoverflow
+Released under the MIT License.
+
+Changes in this repository:
+Copyright (c) 2026 FaStR contributors
+Released under the same MIT License.
+
+The neural network layers, replay buffer, target network updates, training
+loop, and DeepMind Control Suite adapter include code adapted from Spectral-RL.
+
+This version adds the FaStR state and action encoders, FaStR critics, and
+optional exploration bonuses. It keeps only FaStR, uses one training entry
+point, and updates the package layout, environment wrappers, and settings.
+
+The original copyright notice and full license terms are kept in LICENSE.

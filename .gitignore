@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv*/
+.DS_Store
+build/
+dist/
+log*/
+outputs/
+multirun/
+MUJOCO_LOG.TXT
