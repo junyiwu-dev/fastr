@@ -119,3 +119,18 @@ fastr/
 ├── logger.py      # TensorBoard logs
 └── utils.py       # Seeds, devices, and target network updates
 ```
+
+## Citation
+
+If you find our work useful, please consider citing our NeurIPS 2026 paper:
+
+```bibtex
+@inproceedings{wu2026fastr,
+  title     = {Factorized Spectral Representations for Reinforcement Learning},
+  author    = {Wu, Junyi and Li, Dan},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  year      = {2026},
+  url       = {https://neurips.cc/virtual/2026/loc/atlanta/poster/149364}
+}
+```
+
